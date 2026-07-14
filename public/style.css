@@ -1,0 +1,90 @@
+/* Modern styling for your Debt-Relief Platform */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    width: 360px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.container:hover {
+    transform: translateY(-2px);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    font-size: 22px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.clear-btn {
+    background-color: #e74c3c;
+    box-shadow: 0 4px 6px rgba(231, 76, 60, 0.2);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.clear-btn:hover {
+    background-color: #c0392b;
+}
